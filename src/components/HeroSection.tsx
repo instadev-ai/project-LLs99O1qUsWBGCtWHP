@@ -19,10 +19,10 @@ export function HeroSection() {
             that fully understands your application & your users.
           </p>
           <div className="flex items-center justify-center space-x-4">
-            <button className="h-11 px-8 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium dark:bg-indigo-500 dark:hover:bg-indigo-600">
+            <button className="h-11 px-8 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors">
               Get Started
             </button>
-            <button className="h-11 px-8 rounded-full border-2 border-slate-200 hover:bg-slate-50 text-slate-700 font-medium dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800/50">
+            <button className="h-11 px-8 rounded-full bg-white/90 hover:bg-white text-indigo-600 font-medium dark:bg-white/10 dark:hover:bg-white/20 dark:text-white transition-colors">
               Live Demo
             </button>
           </div>
