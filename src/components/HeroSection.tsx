@@ -8,21 +8,21 @@ export function HeroSection() {
     >
       <div className="container relative z-10">
         <div className="text-center space-y-8 max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight text-white">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight text-slate-900">
             AI Copilots for your product.
             <br />
             Build fast, customize effortlessly.
           </h1>
-          <p className="text-xl leading-relaxed text-white/80">
+          <p className="text-xl leading-relaxed text-slate-600">
             Build a virtual colleague into your product
             <br />
             that fully understands your application & your users.
           </p>
           <div className="flex items-center justify-center space-x-4">
-            <button className="h-11 px-8 rounded-full bg-white hover:bg-white/90 text-indigo-600 font-medium">
+            <button className="h-11 px-8 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium">
               Get Started
             </button>
-            <button className="h-11 px-8 rounded-full border-2 border-white/20 hover:bg-white/10 text-white font-medium">
+            <button className="h-11 px-8 rounded-full border-2 border-slate-200 hover:bg-slate-50 text-slate-700 font-medium">
               Live Demo
             </button>
           </div>
