@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection"
 import { ActionSection } from "@/components/ActionSection"
 import { TrustedBySection } from "@/components/TrustedBySection"
 import { FeaturesSection } from "@/components/FeaturesSection"
+import { Footer } from "@/components/Footer"
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
         <TrustedBySection />
         <FeaturesSection />
       </main>
+      <Footer />
     </div>
   );
 };
