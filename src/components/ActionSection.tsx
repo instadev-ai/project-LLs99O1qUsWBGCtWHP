@@ -13,21 +13,12 @@ export function ActionSection() {
               className="w-full rounded-xl shadow-lg transition-transform duration-500 group-hover:scale-[1.02]"
             />
           </div>
-          <div className="space-y-4">
-            <div className="group bg-white/[0.02] backdrop-blur-sm rounded-xl p-4 transition-all duration-500 hover:bg-white/[0.04] hover:scale-[1.02] hover:shadow-indigo-500/25">
-              <img 
-                src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg"
-                alt="Code Interface"
-                className="w-full rounded-lg transition-transform duration-500 group-hover:scale-[1.02]"
-              />
-            </div>
-            <div className="group bg-white/[0.02] backdrop-blur-sm rounded-xl p-4 transition-all duration-500 hover:bg-white/[0.04] hover:scale-[1.02] hover:shadow-indigo-500/25">
-              <img 
-                src="https://img.freepik.com/free-vector/gradient-infographic-template_23-2149161911.jpg"
-                alt="Analytics Interface"
-                className="w-full rounded-lg transition-transform duration-500 group-hover:scale-[1.02]"
-              />
-            </div>
+          <div className="group bg-white/[0.02] backdrop-blur-sm rounded-xl p-6 transition-all duration-500 hover:bg-white/[0.04] hover:scale-[1.02] hover:shadow-indigo-500/25">
+            <img 
+              src="https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg"
+              alt="Code Interface"
+              className="w-full rounded-lg transition-transform duration-500 group-hover:scale-[1.02]"
+            />
           </div>
         </div>
       </div>
